@@ -1,12 +1,14 @@
 //declaring and acessing an object
 var student = {
-    studentName: "Lívia",
+    firstName: "Lívia",
+    lastName: "Zeviani",
     age: 30
 };
-
-console.log(student.studentName);
-
+//console.log(student.studentName);
 for (var item in student) {
-    console.log(item); //give the properties
-    console.log(student[item]); //give the values
+    console.log(item);
+    console.log(student[item]);
 }
+//de-structuring object
+var firstName = student.firstName, lastName = student.lastName;
+console.log(firstName + " " + lastName);

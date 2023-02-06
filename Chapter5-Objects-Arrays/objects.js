@@ -7,6 +7,6 @@ var student = {
 console.log(student.studentName);
 
 for (var item in student) {
-    console.log(item);
-    console.log(student[item]);
+    console.log(item); //give the properties
+    console.log(student[item]); //give the values
 }

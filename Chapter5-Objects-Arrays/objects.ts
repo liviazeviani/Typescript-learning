@@ -5,5 +5,10 @@ var student = {
     age : 30
 }
 
-console.log(student.studentName);
+//console.log(student.studentName);
+
+for( var item in student){
+    console.log(item);
+    console.log(student[item])
+}
 

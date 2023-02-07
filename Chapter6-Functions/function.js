@@ -7,6 +7,7 @@ function add(n1, n2) {
 }
 console.log("n1 + n2 = " + add(10, 10));
 function display(id, name, role) {
+    if (role === void 0) { role = "User"; }
     console.log("id:", id);
     console.log("Name:", name);
     console.log("Role:", role);

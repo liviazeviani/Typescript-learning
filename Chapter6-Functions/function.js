@@ -6,3 +6,9 @@ function add(n1, n2) {
     return n1 + n2;
 }
 console.log("n1 + n2 = " + add(10, 10));
+function display(id, name, role) {
+    console.log("id:", id);
+    console.log("Name:", name);
+    console.log("Role:", role);
+}
+display(7, "Lívia");

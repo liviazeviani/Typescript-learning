@@ -2,17 +2,17 @@
 Typescript for beginners
 O'relly course by Bharath Thippireddy
 
-Chapter 1: Introduction
+**Chapter 1: Introduction**
 
-Chapter 2: Variables and Data Types
+**Chapter 2: Variables and Data Types**
 
-Chapter 3:  Operators
+**Chapter 3:  Operators**
 
-Chapter 4: Flow Control Statements
+**Chapter 4: Flow Control Statements**
 
-Chapter 5: Objects and Arrays
+**Chapter 5: Objects and Arrays**
 
-Chapter 6: Functions
+**Chapter 6: Functions**
 
 Chapter 7: Arrow Functions
 

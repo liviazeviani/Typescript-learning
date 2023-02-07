@@ -10,3 +10,11 @@ function calculator(fun) {
 }
 calculator(addition);
 calculator(division);
+//returning a function
+function calculator2() {
+    function subtract(number, number2) {
+        return number - number2;
+    }
+    return subtract;
+}
+console.log(calculator2()(9, 3));

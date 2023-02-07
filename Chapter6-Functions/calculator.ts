@@ -14,3 +14,16 @@ function calculator(fun:any):void{
 
 calculator(addition);
 calculator(division);
+
+//returning a function
+
+function calculator2():any{
+    function subtract(number:number, number2:number):number{
+        return number - number2;
+    }
+    return subtract;
+}
+
+
+
+console.log(calculator2()(9,3));

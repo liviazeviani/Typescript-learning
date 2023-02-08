@@ -1,6 +1,6 @@
-//rest parameter
+//rest parameter - if there are other parameter, rest parameter must be the last one
 
-var product = function(...numbers){
+var product = function(...numbers:number[]){
     var result = 0;
 
     for(var i= 0; i<numbers.length; i++){

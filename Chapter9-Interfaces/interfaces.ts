@@ -3,10 +3,14 @@ interface IProduct{
     name:string;
     description?:string;
     price:number;
+    display():void
 }
 
-var productA = {
+var productA: IProduct = {
     id:1,
     name: "cellphone",
-    price: 3400
+    price: 3400,
+    display(): void{
+        console.log(this.id + " " + this.name)
+    }
 }
